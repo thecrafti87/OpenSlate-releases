@@ -2,7 +2,7 @@
 
 **Ein Programm für Markdown, PDF und alles Textliche dazwischen — für Windows.**
 
-Aktuelle Version: **1.1.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
+Aktuelle Version: **1.2.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
 
 Dieses Repository ist die Bezugsquelle für die fertigen Installer. Hier liegen die
 Releases, aus denen sich auch das eingebaute Auto-Update bedient. Der Quellcode wird
@@ -59,11 +59,27 @@ Typische Situationen, für die es gebaut wurde:
 - Lupe, die dem Zeiger folgt (1,5× bis 6×)
 - Ansicht drehen, Drucken, passwortgeschützte Dateien nach Eingabe des Passworts
 
+### Seiten-Werkbank
+
+Die Antwort auf „ich muss mal eben Seiten aus drei PDFs zu einem zusammenstellen": Alle
+offenen PDFs liegen als Spalten nebeneinander auf einer Arbeitsfläche, jede Seite als
+Miniatur.
+
+| Aktion | Bedienung |
+| --- | --- |
+| Seite verschieben | Karte greifen und ablegen — auch **in eine andere Spalte**; eine Markierung zeigt, wo sie landet |
+| Mehrere auf einmal | Strg-Klick für einzelne, Umschalt-Klick für einen Bereich — die Auswahl wandert zusammen |
+| Weiteres PDF dazu | Knopf „PDF hinzufügen…" oder eine Datei aus dem Explorer auf die Fläche ziehen |
+| Drehen · Duplizieren · Löschen | Knöpfe unten, wirken auf die Auswahl |
+| Fertig | „Alles übernehmen" — jede Spalte geht in ihren Tab zurück, hinzugefügte werden neue Tabs |
+
+Spalten, an denen nichts geändert wurde, bleiben unangetastet.
+
 ### PDF bearbeiten
 
 | Werkzeug | Was es tut |
 | --- | --- |
-| Seiten verwalten | Umsortieren per Ziehen, drehen, löschen |
+| Seiten verwalten | Umsortieren per Ziehen, drehen, löschen (innerhalb eines Dokuments) |
 | Zusammenfügen | Weitere PDFs an das offene anhängen |
 | Aufteilen | Jede Seite einzeln, alle N Seiten oder nach Bereichen |
 | Seiten herauslösen | Auswahl wie `1-3, 7, 12-` als neues Dokument |
@@ -116,7 +132,7 @@ Die Vorschau blendet sich dabei automatisch aus.
 
 ## Installation
 
-1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.1.0.exe` herunterladen
+1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.2.0.exe` herunterladen
 2. Ausführen — die Installation läuft ohne Rückfragen und benötigt **keine** Administratorrechte
 3. OpenSlate wird für den angemeldeten Benutzer installiert, samt Verknüpfung im Startmenü und auf dem Schreibtisch
 
@@ -216,4 +232,4 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 Der vollständige Änderungsverlauf steht bei jedem Release unter
 [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases).
 
-*Diese Seite gehört zu OpenSlate 1.1.0 und wird mit jeder Veröffentlichung aktualisiert.*
+*Diese Seite gehört zu OpenSlate 1.2.0 und wird mit jeder Veröffentlichung aktualisiert.*
