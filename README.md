@@ -2,7 +2,7 @@
 
 **Ein Programm für Markdown, PDF und alles Textliche dazwischen — für Windows.**
 
-Aktuelle Version: **1.2.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
+Aktuelle Version: **1.3.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
 
 Dieses Repository ist die Bezugsquelle für die fertigen Installer. Hier liegen die
 Releases, aus denen sich auch das eingebaute Auto-Update bedient. Der Quellcode wird
@@ -45,10 +45,24 @@ Typische Situationen, für die es gebaut wurde:
 | Formeln | KaTeX, inline `$…$` und als Block `$$…$$` |
 | Diagramme | Mermaid — Flussdiagramme, Sequenzen, Gantt und mehr, direkt aus dem Codeblock |
 | Code | Syntax-Hervorhebung für über 190 Sprachen |
-| Navigation | Gliederungs-Seitenleiste aus den Überschriften, synchrones Scrollen von Editor und Vorschau |
+| Navigation | Gliederungs-Seitenleiste aus den Überschriften; Editor und Vorschau scrollen gemeinsam oder getrennt |
 | Suchen | Suchen und Ersetzen mit regulären Ausdrücken |
 | Ausgeben | Export als eigenständige HTML-Datei, als PDF, oder direkt drucken |
 | Bilder | Aus der Zwischenablage einfügen — wird als Datei neben dem Dokument abgelegt und verlinkt |
+
+### Schneller arbeiten
+
+**Strg+P** (oder **F1**) öffnet die Befehlspalette: ein Suchfeld über der App, in dem sich
+jeder Befehl durch Tippen finden lässt. Die Suche ist unscharf und verzeiht Umlaute — „sw"
+findet „Schwärzen anwenden", „schwaerzen" ebenso. Angeboten wird nur, was im aktuellen
+Dokument möglich ist; zuletzt benutzte Befehle stehen oben, die zuletzt geöffneten Dateien
+ebenfalls.
+
+**Editor und Vorschau hängen zusammen.** Markierst du Text in der Vorschau, wird die
+zugehörige Stelle im Editor mitmarkiert — die Auswahl in der Vorschau bleibt dabei
+bestehen, Kopieren funktioniert also weiterhin. Umgekehrt zeigt eine dezente Hinterlegung,
+an welchem Absatz du gerade schreibst. Das gemeinsame Scrollen lässt sich über das
+Schloss-Symbol trennen, wenn du beide Seiten unabhängig lesen willst.
 
 ### PDF lesen
 
@@ -132,7 +146,7 @@ Die Vorschau blendet sich dabei automatisch aus.
 
 ## Installation
 
-1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.2.0.exe` herunterladen
+1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.3.0.exe` herunterladen
 2. Ausführen — die Installation läuft ohne Rückfragen und benötigt **keine** Administratorrechte
 3. OpenSlate wird für den angemeldeten Benutzer installiert, samt Verknüpfung im Startmenü und auf dem Schreibtisch
 
@@ -232,4 +246,4 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 Der vollständige Änderungsverlauf steht bei jedem Release unter
 [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases).
 
-*Diese Seite gehört zu OpenSlate 1.2.0 und wird mit jeder Veröffentlichung aktualisiert.*
+*Diese Seite gehört zu OpenSlate 1.3.0 und wird mit jeder Veröffentlichung aktualisiert.*
