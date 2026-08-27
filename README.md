@@ -2,7 +2,10 @@
 
 **Ein Programm für Markdown, PDF und alles Textliche dazwischen — für Windows.**
 
-Aktuelle Version: **1.3.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
+Vollwertiger Editor, PDF-Werkzeugkasten und Betrachter in einem, mit Menüband,
+Befehlspalette und Funktionen, die über einzelne Dokumente hinausreichen.
+
+Aktuelle Version: **1.4.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
 
 Dieses Repository ist die Bezugsquelle für die fertigen Installer. Hier liegen die
 Releases, aus denen sich auch das eingebaute Auto-Update bedient. Der Quellcode wird
@@ -49,6 +52,37 @@ Typische Situationen, für die es gebaut wurde:
 | Suchen | Suchen und Ersetzen mit regulären Ausdrücken |
 | Ausgeben | Export als eigenständige HTML-Datei, als PDF, oder direkt drucken |
 | Bilder | Aus der Zwischenablage einfügen — wird als Datei neben dem Dokument abgelegt und verlinkt |
+
+### Bearbeiten wie in einer Entwicklungsumgebung
+
+Diese Werkzeuge gelten für **jedes** Textformat, nicht nur für Markdown:
+
+| Bereich | Was drin ist |
+| --- | --- |
+| Cursor | Mehrfach-Cursor (Alt+Klick), Spaltenauswahl (Alt+Ziehen), nächstes Vorkommen auswählen (Strg+D) |
+| Zeilen | verschieben (Alt+↑/↓), duplizieren, löschen, verbinden, sortieren, doppelte und leere entfernen |
+| Text | Groß-/Kleinschreibung, Leerraum am Zeilenende aufräumen, Kommentar umschalten, ein- und ausrücken |
+| Navigation | Gehe zu Zeile (Strg+G), Klammer-Sprung, Code-Faltung |
+| Ansicht | Zeilennummern, aktive Zeile, Sonderzeichen, Zeilenumbruch — einzeln schaltbar; Einrückung frei einstellbar |
+| Rückgängig | Strg+Z und Strg+Y, mit Knöpfen in der Leiste und im Menü |
+
+**Schreibhilfen:** Enter setzt Listen, Aufgaben und Zitate fort und nummeriert dabei die
+folgenden Punkte nach — ein leerer Punkt beendet die Liste. Dazu Wortvervollständigung aus
+dem Dokument, paarweise Klammern und eine **Rechtschreibprüfung** mit Korrekturvorschlägen
+per Rechtsklick und eigenem Wörterbuch.
+
+### Über Dokumentgrenzen hinweg
+
+- **Strg+Umschalt+F** sucht und ersetzt in **allen offenen Dokumenten oder einem ganzen Ordner**, mit Trefferliste zum Anspringen
+- **Zwei Dokumente vergleichen** — Unterschiede nebeneinander, gemeinsam scrollend
+- **Geteilte Ansicht** für zwei beliebige Dokumente nebeneinander
+- Auswahl in ein anderes Dokument übertragen, mehrere Dateien zu einem zusammenführen
+
+### Damit nichts verloren geht
+
+- Wurde eine geöffnete Datei zwischenzeitlich von einem anderen Programm geändert, fragt OpenSlate nach, statt sie kommentarlos zu überschreiben — ein Warnzeichen am Tab weist darauf hin
+- Die zuletzt offenen Dateien kommen beim Start zurück; ein versehentlich geschlossener Tab mit **Strg+Umschalt+T**
+- Kodierung und Zeilenenden werden erkannt und lassen sich in der Statusleiste umstellen
 
 ### Schneller arbeiten
 
@@ -146,7 +180,7 @@ Die Vorschau blendet sich dabei automatisch aus.
 
 ## Installation
 
-1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.3.0.exe` herunterladen
+1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.4.0.exe` herunterladen
 2. Ausführen — die Installation läuft ohne Rückfragen und benötigt **keine** Administratorrechte
 3. OpenSlate wird für den angemeldeten Benutzer installiert, samt Verknüpfung im Startmenü und auf dem Schreibtisch
 
@@ -246,4 +280,4 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 Der vollständige Änderungsverlauf steht bei jedem Release unter
 [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases).
 
-*Diese Seite gehört zu OpenSlate 1.3.0 und wird mit jeder Veröffentlichung aktualisiert.*
+*Diese Seite gehört zu OpenSlate 1.4.0 und wird mit jeder Veröffentlichung aktualisiert.*
