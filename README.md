@@ -5,7 +5,7 @@
 Vollwertiger Editor, PDF-Werkzeugkasten und Betrachter in einem, mit Menüband,
 Befehlspalette und Funktionen, die über einzelne Dokumente hinausreichen.
 
-Aktuelle Version: **1.4.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
+Aktuelle Version: **1.5.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
 
 Dieses Repository ist die Bezugsquelle für die fertigen Installer. Hier liegen die
 Releases, aus denen sich auch das eingebaute Auto-Update bedient. Der Quellcode wird
@@ -170,6 +170,22 @@ Der Knopf **Notizen** blendet rechts neben dem PDF ein Markdown-Feld ein und sch
 `<name>-notizen.md` im Ordner des PDFs. Speichern und Suchen richten sich danach, wo
 zuletzt gearbeitet wurde.
 
+### Lesen wie auf einem E-Book-Reader
+
+Mit **F9** (oder dem Buch-Symbol) wird aus jedem Markdown-Dokument ein Buch mit echten
+Seiten. EPUB-E-Books öffnen sich per Doppelklick direkt in diesem Lesemodus.
+
+- Einzel- oder Doppelseite; die Seite folgt beim Umblättern dem Finger, der Maus oder dem Touchpad — mit Tiefe, Licht und Schatten wie bei einem echten Buch
+- Lesestelle wird pro Buch gemerkt, auch über einen Neustart hinweg
+- Lesezeichen mit Eselsohr und Übersicht, Restlesezeit für Kapitel und Buch mit lernendem Lesetempo
+- Vier Lesehintergründe (Hell, Sepia, Dunkel, Nacht), vier Schriften, Größe, Zeilenabstand, Ränder, Blocksatz
+- Bei EPUBs: Cover, Inhaltsverzeichnis, jedes Kapitel auf einer neuen Seite, aktuelles Kapitel in der Kopfzeile
+- Die Formatierung des Verlags weicht den eigenen Leseeinstellungen — so bleibt Text in jedem Thema lesbar
+
+Kopiergeschützte E-Books (DRM) lassen sich nur in der Lese-App des jeweiligen Shops
+öffnen; OpenSlate lehnt sie mit einem Hinweis ab. Kindle-Formate (AZW, KFX, MOBI) werden
+nicht unterstützt.
+
 ### Weitere Formate
 
 Neben Markdown und PDF öffnet OpenSlate txt, json, js, ts, html, css, xml, svg, yaml,
@@ -180,7 +196,7 @@ Die Vorschau blendet sich dabei automatisch aus.
 
 ## Installation
 
-1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.4.0.exe` herunterladen
+1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.5.0.exe` herunterladen
 2. Ausführen — die Installation läuft ohne Rückfragen und benötigt **keine** Administratorrechte
 3. OpenSlate wird für den angemeldeten Benutzer installiert, samt Verknüpfung im Startmenü und auf dem Schreibtisch
 
@@ -197,6 +213,9 @@ Für `.md`-Dateien:
 
 1. Rechtsklick auf eine `.md`-Datei → „Öffnen mit" → „Andere App auswählen"
 2. OpenSlate auswählen, Haken bei „Immer diese App verwenden" setzen
+
+Für `.epub`-Dateien genauso — OpenSlate wird bei der Installation bereits als mögliches
+Programm für E-Books eingetragen.
 
 Für `.pdf`-Dateien führt der Weg über die Windows-Einstellungen → Apps → Standard-Apps →
 Dateityp `.pdf` → OpenSlate. Edge, Acrobat und andere bleiben über „Öffnen mit" jederzeit
@@ -271,6 +290,7 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 - Verschlüsselte PDFs lassen sich lesen, aber nicht bearbeiten
 - Lesezeichen und Formularfelder gehen verloren, sobald Seiten umsortiert oder gelöscht werden
 - Keine Umwandlung nach Word, Excel oder PowerPoint
+- E-Books: nur EPUB ohne Kopierschutz; keine Kindle-Formate (AZW, KFX, MOBI), E-Books werden nur gelesen, nicht bearbeitet
 - Nur Windows; macOS und Linux sind nicht vorgesehen
 
 ---
@@ -280,4 +300,4 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 Der vollständige Änderungsverlauf steht bei jedem Release unter
 [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases).
 
-*Diese Seite gehört zu OpenSlate 1.4.0 und wird mit jeder Veröffentlichung aktualisiert.*
+*Diese Seite gehört zu OpenSlate 1.5.0 und wird mit jeder Veröffentlichung aktualisiert.*
