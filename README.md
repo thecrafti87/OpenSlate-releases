@@ -5,7 +5,7 @@
 Vollwertiger Editor, PDF-Werkzeugkasten und Betrachter in einem, mit Menüband,
 Befehlspalette und Funktionen, die über einzelne Dokumente hinausreichen.
 
-Aktuelle Version: **1.5.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
+Aktuelle Version: **1.5.1** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
 
 Dieses Repository ist die Bezugsquelle für die fertigen Installer. Hier liegen die
 Releases, aus denen sich auch das eingebaute Auto-Update bedient. Der Quellcode wird
@@ -196,7 +196,7 @@ Die Vorschau blendet sich dabei automatisch aus.
 
 ## Installation
 
-1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.5.0.exe` herunterladen
+1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.5.1.exe` herunterladen
 2. Ausführen — die Installation läuft ohne Rückfragen und benötigt **keine** Administratorrechte
 3. OpenSlate wird für den angemeldeten Benutzer installiert, samt Verknüpfung im Startmenü und auf dem Schreibtisch
 
@@ -225,14 +225,15 @@ erreichbar.
 
 ## Updates
 
-OpenSlate prüft kurz nach dem Start, ob hier ein neueres Release liegt. Wird eines
-gefunden, fragt das Programm nach — heruntergeladen wird nur nach Bestätigung. Installiert
-wird das Update beim Beenden oder auf Wunsch sofort; ungespeicherte Dokumente werden dabei
-wie gewohnt abgefragt.
+OpenSlate hält sich selbst aktuell: Kurz nach dem Start und danach alle vier Stunden
+prüft es, ob hier ein neueres Release liegt. Ein neues Update wird ohne Rückfrage im
+Hintergrund geladen und beim Beenden installiert — nie mitten in der Arbeit. Eine
+Windows-Benachrichtigung meldet, wenn es bereitliegt; ein Klick darauf startet auf Wunsch
+sofort neu. Ungespeicherte Dokumente werden dabei wie gewohnt abgefragt.
 
 Wer selbst nachsehen möchte: Einstellungen → **Nach Updates suchen**.
 
-Was dabei nach außen geht, ist eine einzelne Anfrage an diese Release-Seite auf GitHub.
+Was dabei nach außen geht, sind Anfragen an diese Release-Seite auf GitHub und der Download des Installers.
 Es werden keine Nutzungsdaten, Dateiinhalte oder Kennungen übertragen, und OpenSlate
 verbindet sich zu keinem anderen Zweck mit dem Internet.
 
@@ -300,4 +301,4 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 Der vollständige Änderungsverlauf steht bei jedem Release unter
 [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases).
 
-*Diese Seite gehört zu OpenSlate 1.5.0 und wird mit jeder Veröffentlichung aktualisiert.*
+*Diese Seite gehört zu OpenSlate 1.5.1 und wird mit jeder Veröffentlichung aktualisiert.*
