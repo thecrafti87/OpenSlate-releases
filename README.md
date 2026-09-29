@@ -5,7 +5,7 @@
 Vollwertiger Editor, PDF-Werkzeugkasten und Betrachter in einem, mit Menüband,
 Befehlspalette und Funktionen, die über einzelne Dokumente hinausreichen.
 
-Aktuelle Version: **1.5.1** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
+Aktuelle Version: **1.6.0** · [Installer herunterladen](https://github.com/thecrafti87/OpenSlate-releases/releases/latest)
 
 Dieses Repository ist die Bezugsquelle für die fertigen Installer. Hier liegen die
 Releases, aus denen sich auch das eingebaute Auto-Update bedient. Der Quellcode wird
@@ -175,7 +175,8 @@ zuletzt gearbeitet wurde.
 Mit **F9** (oder dem Buch-Symbol) wird aus jedem Markdown-Dokument ein Buch mit echten
 Seiten. EPUB-E-Books öffnen sich per Doppelklick direkt in diesem Lesemodus.
 
-- Einzel- oder Doppelseite; die Seite folgt beim Umblättern dem Finger, der Maus oder dem Touchpad — mit Tiefe, Licht und Schatten wie bei einem echten Buch
+- Einzel- oder Doppelseite; beim Umblättern rollt sich die Seite wie Papier und folgt dem Finger, der Maus oder dem Touchpad — wie beim Kindle
+- Auch PDFs lassen sich so lesen: mit an das Thema angepassten Seitenfarben und auf Wunsch abgeschnittenen weißen Rändern
 - Lesestelle wird pro Buch gemerkt, auch über einen Neustart hinweg
 - Lesezeichen mit Eselsohr und Übersicht, Restlesezeit für Kapitel und Buch mit lernendem Lesetempo
 - Vier Lesehintergründe (Hell, Sepia, Dunkel, Nacht), vier Schriften, Größe, Zeilenabstand, Ränder, Blocksatz
@@ -196,7 +197,7 @@ Die Vorschau blendet sich dabei automatisch aus.
 
 ## Installation
 
-1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.5.1.exe` herunterladen
+1. Unter [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases/latest) die Datei `OpenSlate-Setup-1.6.0.exe` herunterladen
 2. Ausführen — die Installation läuft ohne Rückfragen und benötigt **keine** Administratorrechte
 3. OpenSlate wird für den angemeldeten Benutzer installiert, samt Verknüpfung im Startmenü und auf dem Schreibtisch
 
@@ -301,4 +302,4 @@ Ehrlichkeit vor Werbung — diese Grenzen sind bekannt:
 Der vollständige Änderungsverlauf steht bei jedem Release unter
 [Releases](https://github.com/thecrafti87/OpenSlate-releases/releases).
 
-*Diese Seite gehört zu OpenSlate 1.5.1 und wird mit jeder Veröffentlichung aktualisiert.*
+*Diese Seite gehört zu OpenSlate 1.6.0 und wird mit jeder Veröffentlichung aktualisiert.*
